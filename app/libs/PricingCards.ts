@@ -8,28 +8,28 @@ interface IPricingCard {
 
 const pricingCards:IPricingCard[] = [
     {
-        price: 49,
-        title: "Insightful Pro",
+        price: 149,
+        title: "Pacote Básico",
         benefits: [
-            "Predictive lead scoring",
-            "Automated content creation",
-            "Personalized messaging at scale",
-            "Customer retention tools",
+            "Design responsivo",
+            "Hospedagem confiável",
+            "Suporte por e-mail",
+            "Modelos de site personalizáveis",
         ],
         id: 1,
-        oneliner: "AI-powered sales tools for focused revenue growth"
+        oneliner: "Obtenha design responsivo, hospedagem confiável e suporte por e-mail. Modelos personalizáveis para um site prático"
     },
     {
-        price: 99,
-        title: "Insightful Enterprise",
+        price: 299,
+        title: "Pacote Premium",
         benefits: [
-            "Everything In Pro Tier, and:",
-            "Data-driven recommendations",
-            "Customizable sales workflows",
-            "Real-time alerts and notifications",
+            "Todos os recursos do Pacote Básico",
+            "Domínio personalizado incluído",
+            "Suporte prioritário por chat",
+            "Estatísticas avançadas de tráfego do site",
         ],
         id: 2,
-        oneliner: "Comprehensive sales optimization for accelerated revenue gains"
+        oneliner: "Oferece domínio personalizado, suporte por chat e estatísticas avançadas. Destaque-se online com nosso pacote premium."
     },
 ]
 

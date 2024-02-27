@@ -15,13 +15,13 @@ export default function Home() {
       <header id="home" className="flex flex-col-reverse md:flex-row w-full h-screen max-w-7xl items-center justify-center p-8 relative overflow-x-hidden">
         <div className='w-full h-2/4 md:h-full md:w-2/5 flex flex-col justify-center items-center md:items-start gap-8'>
           <div className='flex flex-col gap-2'>
-            <h1 className='text-4xl font-black md:text-8xl'>Insightful</h1>
-            <h2 className='text-md md:text-2xl'>Start growing today!</h2>
+            <h1 className='text-4xl font-black md:text-8xl'>SimplesWeb</h1>
+            <h2 className='text-md md:text-2xl'>Desenvolvimento Ágil e Acessível!</h2>
           </div>
-          <p className='max-w-md text-sm md:text-base text-zinc-500'>Insightful is an AI-powered sales optimization tool that provides data-driven insights to boost sales performance.</p>
+          <p className='max-w-md text-sm md:text-base text-zinc-500'>SimplesWeb, a escolha simplificada para sites. Design intuitivo, suporte rápido. Transforme sua presença online.</p>
           <div className='w-full flex items-center justify-center md:justify-start gap-4'>
-            <button className='w-48 h-12 text-sm sm:text-base rounded bg-white text-black hover:bg-fuchsia-700 hover:text-white transition-colors'>Try 7 days free!</button>
-            <button className='w-48 h-12 text-sm sm:text-base rounded hover:bg-white hover:text-white hover:bg-opacity-5 transition-colors'>Contact</button>
+            <button className='w-48 h-12 text-sm sm:text-base rounded bg-white text-black hover:bg-fuchsia-700 hover:text-white transition-colors'>Teste grátis por 7 dias!</button>
+            <button className='w-48 h-12 text-sm sm:text-base rounded hover:bg-white hover:text-white hover:bg-opacity-5 transition-colors'>Contato</button>
           </div>
         </div>
 
@@ -36,7 +36,7 @@ export default function Home() {
           <Image src="/whirl.svg" fill className="absolute object-cover w-full overflow-visible sm:rotate-90" alt="Background Whirl"/>
         </div>
         <div className="w-full h-full flex items-center justify-center flex-col gap-8 max-w-7xl">
-          <h3 className='text-4xl md:text-5xl font-bold'>No More Time Wasted!</h3>
+          <h3 className='text-4xl md:text-5xl font-bold'>Não perca mais o seu tempo!</h3>
           <div className="w-full grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 gap-4 justify-between relative">
             {infoCards.map((infoCard) => {
               return (
@@ -50,7 +50,7 @@ export default function Home() {
       </section>
 
       <section id="pricing" className="h-fit min-h-screen w-full flex flex-col items-center justify-center gap-8 p-8">
-        <h4 className="text-4xl md:text-5xl font-bold">Pricing</h4>
+        <h4 className="text-4xl md:text-5xl font-bold">Preços</h4>
         <div className='grid grid-cols-1 grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 items-center h-fit w-full max-w-3xl gap-8'>
             {pricingCards.map((pricingCard) => {
               return (
@@ -99,10 +99,10 @@ function PricingCard({title,price,benefits,oneliner}:IPricingCardProps) {
           <p className='text-sm text-zinc-500'>{oneliner}</p>
         </div>
         <p className='text-4xl font-bold'>
-          ${price} <span className='text-sm font-normal text-zinc-500'>/ Month</span>
+          R${price} <span className='text-sm font-normal text-zinc-500'>/ Mês</span>
         </p>
       </div>
-      <button className='bg-fuchsia-700 rounded p-2 text-sm transition-colors hover:bg-fuchsia-800'>Try 7 days free!</button>
+      <button className='bg-fuchsia-700 rounded p-2 text-sm transition-colors hover:bg-fuchsia-800'>Teste grátis por 7 dias!</button>
       <div className='flex flex-col w-full gap-4'>
         {benefits.map((benefit, i) => {
           return(
@@ -123,11 +123,11 @@ function Navbar() {
   return (
     <div className='w-full h-16 backdrop-filter backdrop-blur-xl bg-opacity-20 border-b flex items-center justify-center'>
       <div className='max-w-7xl w-full flex items-center justify-between p-4'>
-        <h6 className='font-bold'>Insightful</h6>
+        <h6 className='font-bold'>SimplesWeb</h6>
         <ul className='flex gap-8'>
           <li><Link className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base' href="#home">Home</Link></li>
-          <li><Link className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base' href="#about">About</Link></li>
-          <li><Link className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base' href="#pricing">Pricing</Link></li>
+          <li><Link className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base' href="#about">Sobre</Link></li>
+          <li><Link className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base' href="#pricing">Preços</Link></li>
         </ul>
       </div>
 

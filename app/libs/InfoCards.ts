@@ -9,20 +9,20 @@ interface IInfoCard {
 
 const infoCards: IInfoCard[] = [
     {
-        title: "Increased Sales",
-        bodyText: " Insightful's predictive analytics identify high-value prospects for targeted pitches, boosting conversion rates and sales by up to 20%.",
+        title: "Presença",
+        bodyText: " Imagine ter o seu site, do conceito à realidade, em tempo recorde. Nossos serviços de desenvolvimento sob demanda garantem eficiência e comunicação ágil, assegurando que sua presença online esteja ativa quando você mais precisa.",
         icon: ArrowUpNarrowWide,
         id: 1
     },
     {
-        title: "No Time Wasted",
-        bodyText: "Insightful automates personalized content creation, freeing up sales reps' time for revenue-focused activities and increased productivity.",
+        title: "Tempo",
+        bodyText: "Acreditamos que cada segundo conta. Nosso site é intuitivo, transmitindo clareza sobre nossos serviços desde o primeiro clique. Simplificamos o processo de pedido para que você gaste menos tempo configurando seu site e mais tempo focando no que realmente importa: o crescimento do seu negócio.",
         icon: AlarmClockOff,
         id: 2
     },
     {
-        title: "Decreased Churn",
-        bodyText: " Insightful's AI lead engagement and renewal tools reduce customer churn by up to 30% through consistent outreach and retention opportunities.",
+        title: "Experiência",
+        bodyText: " Em relação às vendas, destacamos não apenas a estética visual, mas a experiência do usuário. Nosso design atrativo e otimizado para motores de busca aumenta não apenas a visibilidade, mas também a conversão de visitantes em clientes. Integramos ferramentas de vendas estratégicas para impulsionar seu sucesso comercial.",
         icon: ArrowDownNarrowWide,
         id: 3
     },
